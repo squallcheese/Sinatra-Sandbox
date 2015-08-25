@@ -1,0 +1,26 @@
+<h1>Index View</h1>
+
+<p>Submit something below</p>
+
+<form action="/cool_url" method="get">
+  <input type="text" name="user_input"><br>
+  <textarea type="textarea_1" name="Input_1" placeholder="Input Form 1"></textarea><br>
+  <input type="radio_1" name="radio_1" value="Radio Input 1"> Yes<br>
+  <input type="radio_2" name="radio_2" value="Radio Input 2"> No<br>
+  <input type="checkbox_1" name="checkbox_1" value="Check Input 1"> One<br>
+  <input type="checkbox_2" name="checkbox_2" value="Check Input 2"> Two<br>
+  <select name="select_1">
+  <option value="Roti Kosong">Roti Kosong</option>
+  <option value="Roti Telur">Roti Telur</option>
+  <option value="Roti Sardin">Roti Sardin</option>
+  </select></br>
+  <input type="submit" value="Submit GET!">
+</form>
+
+<form action="/cool_url" method="post">
+  <input type="text" name="user_input"><br>
+  <input type="submit" value="Submit POST!">
+</form>
+
+<p>URL parameters:</p>
+<%= params %>
